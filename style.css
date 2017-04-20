@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #1bc2a2;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #1bc2a2;
+z-index: 10;
+}
+
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+ul li a:hover { background: #2c3e50; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #1bc2a2; }
+
+li:hover li a:hover { background: #2c3e50; }
+
+.main-navigation li ul li { border-top: 0; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #1bc2a2; }
+
+li:hover li a:hover { background: #2c3e50; }
+
+.main-navigation li ul li { border-top: 0; }
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+
+ul:before,
+ul:after {
+  content: " "; 
+  display: table; 
+}
+
+ul:after { clear: both; }
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000000;
+	background: #000000 url(background.jpeg);
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#page
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 670px;
+}
+
+header{
+	text-decoration: none;
+	border:0;
+	width : 270px;
+	height : 135px;
+	margin : 0;
+	padding : 0;
+	background : url(logo.gif);}
+
+header a {
+	display : block;
+	height : 135px;
+	text-indent : -9999px; 
+	text-decoration:none;}
+
+
+#mainPicture
+{
+clear:both;
+width:670px;
+height:345px;
+background-color:#000000;
+}
+
+#mainPicture .picture
+{
+position:relative;
+width:650px;
+height:325px;
+top:10px;
+margin-left:10px;
+background-image:url(mainImage.jpeg);
+background-repeat:no-repeat;
+}
+
+#headerTitle
+{
+position:relative;
+top:14px;
+left:22px;
+font-size:27px;
+color:#000000;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerSubtext
+{
+position:relative;
+top:12px;
+left:22px;
+font-size:14px;
+color:#484848;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerSubtext2
+{
+position:relative;
+top:12px;
+left:22px;
+font-size:14px;
+color:#484848;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerSubtext3
+{
+position:relative;
+top:12px;
+left:22px;
+font-size:14px;
+color:#484848;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+.contentBox
+{
+margin-top:10px;
+width:670px;
+height:auto;
+background-color:#000000;
+}
+
+.contentBox .innerBox
+{
+position:relative;
+
+width:650px;
+height:auto;
+top:10px;
+margin-left:10px;
+background-image:url(contentBack.png);
+background-color:#FFFFFF;
+background-repeat:repeat-x;
+}
+
+h1
+{
+font-size:25px;
+margin-bottom:10px;
+padding-top:18px;
+margin-left:15px;
+margin-top:15px;
+color:#1F1603;
+}
+
+.contentText
+{
+font-size:13px;
+line-height:24px;
+margin-left:13px;
+margin-right:13px;
+}
+
+h4 {
+text-align:center;
+padding-top:30px;
+font-size:9px;
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+margin:0px;
+}
+
+h4
+{
+text-decoration:none;
+font-size:9px;
+}
+
+a
+{
+color:#484848;
+border-bottom:hidden;
+}
+
+a:hover
+{
+border-bottom: hidden;
+color:#000000;
+text-decoration:none;
+}
+
+a:visited
+{
+color:#000000;
+
+}
+
+
+blockquote {
+	font-size:12px;
+	text-align:justify;
+	width:400px;
+	color:#000000;
+	padding:15px;
+	margin:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-image:url(blockquote.png);
+	background-repeat:no-repeat;
+	border:dashed 1px;
+	border-color:#484848;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
