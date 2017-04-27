@@ -73,7 +73,7 @@ body {
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
 	color: #000000;
-	background: #000000 url(../Images/background.jpeg);
+	background: #000000 url(./Images/background.jpeg);
 	background-repeat:repeat-x;
 }
 *
@@ -97,7 +97,7 @@ header{
 	height : 135px;
 	margin : 0;
 	padding : 0;
-	background : url(../Images/logo.gif);}
+	background : url(./Images/logo.gif);}
 
 header a {
 	display : block;
@@ -121,7 +121,7 @@ width:650px;
 height:325px;
 top:10px;
 margin-left:10px;
-background-image:url(../Images/mainImage.jpeg);
+background-image:url(./Images/mainImage.jpeg);
 background-repeat:no-repeat;
 }
 
@@ -181,7 +181,7 @@ width:650px;
 height:auto;
 top:10px;
 margin-left:10px;
-background-image:url(../Images/contentBack.png);
+background-image:url(./Images/contentBack.png);
 background-color:#FFFFFF;
 background-repeat:repeat-x;
 }
@@ -247,7 +247,7 @@ blockquote {
 	padding:15px;
 	margin:10px;
 	font-family:Arial, Helvetica, sans-serif;
-	background-image:url(../Images/blockquote.png);
+	background-image:url(./Images/blockquote.png);
 	background-repeat:no-repeat;
 	border:dashed 1px;
 	border-color:#484848;
@@ -257,3 +257,11 @@ html, body {
 text-align: center;
 }
 p {text-align: left;}
+
+.footer p { color: white;
+	text-align: center;
+}
+
+.footer a:visited {color: white;}
+
+.footer a:link {color: white;}
